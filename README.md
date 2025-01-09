@@ -14,13 +14,14 @@ This project performs text analysis on extracted articles, calculates various me
 
 ```
 project_root/
-├── code/
-│   ├── text_analysis.py  # Main analysis code
+├── Scripts/
+│   ├── main.py  # Main analysis code
+│   ├── extract_text.py  # To read from the list of urls
 │   ├── load_resources.py # Helper functions to load resources
-├── resources/
-│   ├── StopWords/        # StopWords files
-│   ├── Dictionaries/     # Positive and Negative word dictionaries
+├── StopWords/        # StopWords files
+├── Dictionaries/     # Positive and Negative word dictionaries 
 ├── ExtractedTexts/       # Folder containing input text files
+├── Input.xlsx # Excel file containing list of urls
 ├── Output_Data_Structure.xlsx # Generated Excel output
 ```
 
