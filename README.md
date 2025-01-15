@@ -73,14 +73,7 @@ The output Excel file contains the following columns:
 - `PERSONAL PRONOUNS`: Count of personal pronouns.
 - `AVG WORD LENGTH`: Average length of words in the text.
 
-## Example Input and Output
-
-### Input:
-Place a text file (e.g., `example.txt`) in the `ExtractedTexts/` folder with the following content:
-
-```
-This is an example text. It demonstrates the capabilities of the text analysis tool.
-```
+## Example Output
 
 ### Output:
 The corresponding row in the Excel file:
